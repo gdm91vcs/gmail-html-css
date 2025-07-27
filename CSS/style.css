@@ -6,12 +6,51 @@
 
 .container {
     background-color: rgb(104, 21, 21);
-    width: 50%;
-    height: 400px;
+    width: 60%;
+    height: 500px;
     margin: 0 auto;
     border: 2px solid black;
 }
 
 .logo {
     width: 100px;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.gmail {
+    color: white;
+    font-size: larger;
+    font-size: 25px;
+}
+
+.header {
+    border-bottom: 2px solid white;
+}
+
+.stats-section {
+    color: white;
+    font-size: larger;
+    padding: 20px;
+    border-bottom: 2px solid white;
+}
+
+.number {
+    background-color: rgb(255, 94, 0);
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.email-line1 {
+    background-color: rgb(197, 176, 176);
+    margin: 8px;
+    border: 2px solid black;
+}
+
+.emails-list {
+    list-style: none;
 }
