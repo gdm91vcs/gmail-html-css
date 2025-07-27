@@ -7,7 +7,7 @@
 .container {
     background-color: rgb(104, 21, 21);
     width: 60%;
-    height: 500px;
+    height: 400px;
     margin: 0 auto;
     border: 2px solid black;
 }
@@ -47,10 +47,30 @@
 
 .email-line1 {
     background-color: rgb(197, 176, 176);
-    margin: 8px;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 .emails-list {
     list-style: none;
+    
+
+}
+
+.text-email {
+    color: rgb(116, 113, 113);
+}
+
+.email-line2 {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.main-border {
+    border-bottom: 2px solid white;
+    padding: 10px;
+}
+
+.final-words {
+    text-align: center;
+    padding: 10px;
 }
